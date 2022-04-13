@@ -1,6 +1,7 @@
 Hello!
 
-This is the fifth and final Responsive Web Design project on freecodecamp.
+This is my personal portfolio that is still a work in progress.
 
-I will post the URL once I feel the webpage is ready for viewing. This is a page
-I plan on working on as I further my coding career. Thanks!
+https://naomiyocum.github.io/personal-portfolio/
+
+Thank you!

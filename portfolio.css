@@ -35,6 +35,12 @@ h1 {
   width: 24%;
   height: 100%;
   background: rgba(250, 151, 0, 1);
+  animation-name: progressFill;
+  animation-duration: 10s;
+}
+@keyframes progressFill {
+  0% {width: 0%;}
+  24% {width: 24%;}
 }
 .progress_percent {
   position: absolute;
@@ -69,4 +75,8 @@ img:hover {
   .progress_fill {height: 24%;
     width: 100%;}
   .progress_percent {writing-mode: tb-rl;}
+  @keyframes progressFill {
+    0% {height: 0%;}
+    24% {height: 24%;}
+  }
 }

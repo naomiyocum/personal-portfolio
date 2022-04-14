@@ -37,6 +37,7 @@ h1 {
   background: rgba(250, 151, 0, 1);
   animation-name: progressFill;
   animation-duration: 20s;
+  border-radius: 25px;
 }
 @keyframes progressFill {
   0% {width: 0%;}
@@ -50,10 +51,11 @@ h1 {
   font-weight: 600;
   font-size: 20px;
 }
-img {
+.images {
   position: fixed;
   bottom: 0;
-  right: 0;
+}
+img {
   width: 15%;
 }
 img:hover {

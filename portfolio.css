@@ -54,6 +54,8 @@ h1 {
 .images {
   position: fixed;
   bottom: 0;
+  display: flex;
+  justify-content: space-between;
 }
 img {
   width: 15%;
